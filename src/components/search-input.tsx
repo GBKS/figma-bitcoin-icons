@@ -1,4 +1,4 @@
-import { jsx } from '@emotion/core'
+import { jsx } from '@emotion/react'
 import { icons } from 'feather-icons'
 import theme from '../theme'
 import SearchIcon from './search-icon'

@@ -1,5 +1,5 @@
-import { Global, jsx } from '@emotion/core'
-import { version } from 'feather-icons/package.json'
+import { Global, jsx } from '@emotion/react'
+import packageJson from 'feather-icons/package.json'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import IconButton from './components/icon-button'
@@ -45,11 +45,11 @@ function App() {
             color: 'rgba(0, 0, 0, 0.5)',
           }}
         >
-          Feather v{version}
+          Feather v{packageJson.version}
         </div>
       </div>
     </div>
   )
 }
 
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('react-page'))

@@ -12,7 +12,7 @@ function useSearch(query: string) {
 
   React.useEffect(() => {
     if (query.trim()) {
-      setResults(fuse.search(query.trim()))
+      setResults(fuse.search(query.trim()).map((result) => result.item));
     } else {
       setResults(Object.values(icons))
     }

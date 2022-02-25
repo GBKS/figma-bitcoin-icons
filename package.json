@@ -7,21 +7,23 @@
     "watch": "webpack --mode=development --watch"
   },
   "dependencies": {
-    "@emotion/core": "^10.0.14",
+    "@emotion/react": "^11.8.1",
+    "@figma/plugin-typings": "^1.42.1",
     "@types/feather-icons": "^4.7.0",
-    "@types/react": "^16.8.23",
-    "@types/react-dom": "^16.8.4",
-    "css-loader": "^3.0.0",
-    "feather-icons": "^4.24.1",
-    "fuse.js": "^3.4.5",
-    "html-webpack-inline-source-plugin": "^0.0.10",
-    "html-webpack-plugin": "^3.2.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "style-loader": "^0.23.1",
-    "ts-loader": "^6.0.4",
-    "typescript": "^3.5.2",
-    "webpack": "^4.35.2",
-    "webpack-cli": "^3.3.5"
-  }
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "css-loader": "^6.6.0",
+    "feather-icons": "^4.28.0",
+    "fuse.js": "^6.5.3",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^17.0.2",
+    "react-dev-utils": "^12.0.0",
+    "react-dom": "^17.0.2",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "packageManager": "yarn@3.2.0"
 }
