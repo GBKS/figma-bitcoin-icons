@@ -1,5 +1,5 @@
 import { Global, jsx } from '@emotion/react'
-import packageJson from 'feather-icons/package.json'
+import packageJson from '@runcitadel/bitcoin-icons-svg/package.json'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import IconButton from './components/icon-button'
@@ -34,7 +34,7 @@ function App() {
           }}
         >
           {results.map(icon => (
-            <IconButton name={icon.name} contents={icon.contents} />
+            <IconButton name={icon.name} contents={icon.svg} />
           ))}
         </div>
         <div
@@ -45,7 +45,7 @@ function App() {
             color: 'rgba(0, 0, 0, 0.5)',
           }}
         >
-          Feather v{packageJson.version}
+          Bitcoin Icons v{packageJson.version}
         </div>
       </div>
     </div>

@@ -1,9 +1,9 @@
 import { jsx } from '@emotion/react'
-import { icons } from 'feather-icons'
+import * as filledIcons from "@runcitadel/bitcoin-icons-svg/filled";
 import theme from '../theme'
 import SearchIcon from './search-icon'
 
-const ICON_COUNT = Object.keys(icons).length
+const ICON_COUNT = Object.keys(filledIcons).length;
 
 interface SearchInputProps extends React.HTMLProps<HTMLDivElement> {
   value: string
