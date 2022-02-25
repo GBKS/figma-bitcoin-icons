@@ -1,6 +1,6 @@
 {
-  "name": "figma-feather",
-  "version": "0.0.0",
+  "name": "figma-bitcoin-icons",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode=production",
