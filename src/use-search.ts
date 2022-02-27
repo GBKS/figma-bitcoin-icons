@@ -1,5 +1,5 @@
-import * as filledIcons from "@runcitadel/bitcoin-icons-svg/filled";
-import * as outlineIcons from "@runcitadel/bitcoin-icons-svg/outline";
+import * as filledIcons from "@runcitadel/bitcoin-icons-svg/filled/index.js";
+import * as outlineIcons from "@runcitadel/bitcoin-icons-svg/outline/index.js";
 import Fuse from 'fuse.js'
 import React from 'react'
 

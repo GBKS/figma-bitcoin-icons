@@ -11,7 +11,7 @@ function IconButton({ name, contents }: IconButtonProps) {
     <button
       key={name}
       aria-label={name}
-      onClick={() => parent.postMessage({ pluginMessage: { type: name } }, '*')}
+      onClick={() => parent.postMessage({ pluginMessage: { type: name, svg: contents } }, '*')}
       css={{
         padding: theme.space[2],
         color: '#333',

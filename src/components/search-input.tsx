@@ -1,5 +1,5 @@
 import { jsx } from '@emotion/react'
-import * as filledIcons from "@runcitadel/bitcoin-icons-svg/filled";
+import * as filledIcons from "@runcitadel/bitcoin-icons-svg/filled/index.js";
 import theme from '../theme'
 import SearchIcon from './search-icon'
 
