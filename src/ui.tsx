@@ -59,11 +59,15 @@ function App() {
         css={{
               height: '3rem',
               display: 'flex',
-              flexDirection: 'row-reverse',
+              flexDirection: 'row',
               alignItems: 'center',
               justifyContent: 'center',
             }}
       >
+        <label htmlFor='isFilled'
+          css={{
+            marginRight: '1rem',
+          }}>Outlined</label>
         <Toggle
           id='isFilled'
           defaultChecked={false}
@@ -71,8 +75,8 @@ function App() {
           onChange={handleOutlineChange} />
         <label htmlFor='isFilled'
           css={{
-            marginRight: '1rem',
-          }}>Use filled icons</label>
+            marginLeft: '1rem',
+          }}>Filled</label>
       </div>
       <div css={{ padding: theme.space[2] }}>
         <div
