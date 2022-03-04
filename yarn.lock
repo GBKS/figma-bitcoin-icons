@@ -389,6 +389,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-toggle@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "@types/react-toggle@npm:4.0.3"
+  dependencies:
+    "@types/react": "*"
+  checksum: bdded787e88127eb27863aeb066ae6ff132d7bc5a563e2921e912b88c41d7cd2ea6b9dc1714fa741886c28678ee968fb7799db4c3758118eb8739d81d3d6ae0a
+  languageName: node
+  linkType: hard
+
 "@types/react@npm:*, @types/react@npm:^17.0.39":
   version: 17.0.39
   resolution: "@types/react@npm:17.0.39"
@@ -928,6 +937,13 @@ __metadata:
   version: 1.0.3
   resolution: "chrome-trace-event@npm:1.0.3"
   checksum: cb8b1fc7e881aaef973bd0c4a43cd353c2ad8323fb471a041e64f7c2dd849cde4aad15f8b753331a32dda45c973f032c8a03b8177fc85d60eaa75e91e08bfb97
+  languageName: node
+  linkType: hard
+
+"classnames@npm:^2.2.5":
+  version: 2.3.1
+  resolution: "classnames@npm:2.3.1"
+  checksum: 14db8889d56c267a591f08b0834989fe542d47fac659af5a539e110cc4266694e8de86e4e3bbd271157dbd831361310a8293e0167141e80b0f03a0f175c80960
   languageName: node
   linkType: hard
 
@@ -1505,12 +1521,15 @@ __metadata:
     "@runcitadel/bitcoin-icons-svg": ^0.1.9
     "@types/react": ^17.0.39
     "@types/react-dom": ^17.0.11
+    "@types/react-toggle": ^4.0.3
     css-loader: ^6.6.0
     fuse.js: ^6.5.3
     html-webpack-plugin: ^5.5.0
+    prop-types: ^15.8.1
     react: ^17.0.2
     react-dev-utils: ^12.0.0
     react-dom: ^17.0.2
+    react-toggle: ^4.1.2
     rollup: ^2.68.0
     rollup-plugin-inline-js: ^0.5.0
     style-loader: ^3.3.1
@@ -2294,7 +2313,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.1.0":
+"loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -2966,6 +2985,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prop-types@npm:^15.8.1":
+  version: 15.8.1
+  resolution: "prop-types@npm:15.8.1"
+  dependencies:
+    loose-envify: ^1.4.0
+    object-assign: ^4.1.1
+    react-is: ^16.13.1
+  checksum: c056d3f1c057cb7ff8344c645450e14f088a915d078dcda795041765047fa080d38e5d626560ccaac94a4e16e3aa15f3557c1a9a8d1174530955e992c675e459
+  languageName: node
+  linkType: hard
+
 "punycode@npm:^2.1.0":
   version: 2.1.1
   resolution: "punycode@npm:2.1.1"
@@ -3041,10 +3071,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.7.0":
+"react-is@npm:^16.13.1, react-is@npm:^16.7.0":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
+  languageName: node
+  linkType: hard
+
+"react-toggle@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "react-toggle@npm:4.1.2"
+  dependencies:
+    classnames: ^2.2.5
+  peerDependencies:
+    prop-types: ">= 15.3.0 < 18"
+    react: ">= 15.3.0 < 18"
+    react-dom: ">= 15.3.0 < 18"
+  checksum: 99d2bdff4a550f0188a4e64f1cdff031bc829f0acc8b7ea1c7e216c8e233ba78046f32f217964e3ce1fdb2e6f533c774a80cafa45da8635e2ee302be76b5300a
   languageName: node
   linkType: hard
 
