@@ -78,6 +78,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@bitcoin-design/bitcoin-icons-svg@npm:^0.1.9":
+  version: 0.1.9
+  resolution: "@bitcoin-design/bitcoin-icons-svg@npm:0.1.9"
+  checksum: eb5a9ad41ac0ae9d33a53c677054cea59b9891ba3d569070fae79fb1c5172ee06f8a9cff6bff5fc0da3a1d277cdf68c82bf820d3e86d1554212c4480f81d592e
+  languageName: node
+  linkType: hard
+
 "@discoveryjs/json-ext@npm:^0.5.0":
   version: 0.5.6
   resolution: "@discoveryjs/json-ext@npm:0.5.6"
@@ -294,13 +301,6 @@ __metadata:
     estree-walker: ^2.0.1
     picomatch: ^2.2.2
   checksum: 498d67e7b48c707e3e0d9f7ddaa405833d77575b2d9607cd1914be40455ed534235e0512f9d046bf0e4ed1740e7816fd32ab1c673195e897c4fa180bcbfd7283
-  languageName: node
-  linkType: hard
-
-"@runcitadel/bitcoin-icons-svg@npm:^0.1.9":
-  version: 0.1.9
-  resolution: "@runcitadel/bitcoin-icons-svg@npm:0.1.9"
-  checksum: 4d5b9a26a8b1d8b7bd877b725fe84adc0888eccdad783661ef975e3fe395eec42461e7cbb81839b83e9f467e061b8a8f4c5c81cc563900eb0d4c7eb8fbc984ea
   languageName: node
   linkType: hard
 
@@ -1515,10 +1515,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "figma-bitcoin-icons@workspace:."
   dependencies:
+    "@bitcoin-design/bitcoin-icons-svg": ^0.1.9
     "@emotion/react": ^11.8.1
     "@figma/plugin-typings": ^1.42.1
     "@rollup/plugin-typescript": ^8.3.1
-    "@runcitadel/bitcoin-icons-svg": ^0.1.9
     "@types/react": ^17.0.39
     "@types/react-dom": ^17.0.11
     "@types/react-toggle": ^4.0.3

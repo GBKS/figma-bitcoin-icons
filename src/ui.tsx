@@ -1,5 +1,5 @@
 import { Global, jsx } from '@emotion/react'
-import packageJson from '@runcitadel/bitcoin-icons-svg/package.json'
+import packageJson from '@bitcoin-design/bitcoin-icons-svg/package.json'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import IconButton from './components/icon-button'
@@ -7,8 +7,8 @@ import SearchInput from './components/search-input'
 import theme from './theme'
 import './ui.css'
 import useSearch from './use-search'
-import * as filledIcons from "@runcitadel/bitcoin-icons-svg/filled/index.js";
-import * as outlineIcons from "@runcitadel/bitcoin-icons-svg/outline/index.js";
+import * as filledIcons from "@bitcoin-design/bitcoin-icons-svg/filled/index.js";
+import * as outlineIcons from "@bitcoin-design/bitcoin-icons-svg/outline/index.js";
 import Toggle, { type ToggleProps } from 'react-toggle'
 
 function capitalize(word: string) {
