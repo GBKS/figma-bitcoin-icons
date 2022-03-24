@@ -2,7 +2,7 @@
 
 Quick access to [Bitcoin Icons](https://bitcoinicons.com/) icons in Figma.
 
-[https://www.figma.com/community/plugin/1087677534293009133/Bitcoin-Icons](Get the plugin on Figma)
+[Get the plugin on Figma](https://www.figma.com/community/plugin/1087677534293009133/Bitcoin-Icons)
 
 ![Bitcoin icons Figma plugin](img/Plugin.png)
 
