@@ -28,10 +28,5 @@
     "webpack": "^5.69.1",
     "webpack-cli": "^4.9.2"
   },
-  "packageManager": "yarn@3.2.0",
-  "devDependencies": {
-    "@rollup/plugin-typescript": "^8.3.1",
-    "rollup": "^2.68.0",
-    "rollup-plugin-inline-js": "^0.5.0"
-  }
+  "packageManager": "yarn@3.2.0"
 }
