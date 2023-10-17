@@ -8,7 +8,7 @@
     "watch": "webpack --mode=development --watch"
   },
   "dependencies": {
-    "@bitcoin-design/bitcoin-icons-svg": "^0.1.9",
+    "@bitcoin-design/bitcoin-icons-svg": "^0.1.10",
     "@emotion/react": "^11.9.0",
     "@figma/plugin-typings": "^1.44.0",
     "@types/react": "^18.0.6",
