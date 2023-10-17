@@ -1,18 +1,18 @@
 import Fuse from 'fuse.js'
-import React from 'react'
+import { useEffect, useState } from 'react'
 
 function useSearch(query: string, icons: {
   name: string;
   svg: string;
 }[]) {
-  const [results, setResults] = React.useState([...icons]);
+  const [results, setResults] = useState([...icons]);
 
   let fuse = new Fuse([...icons], {
     threshold: 0.2,
     keys: ['name'],
   })
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (query.trim()) {
       setResults(fuse.search(query.trim()).map((result) => result.item));
     } else {
@@ -20,7 +20,7 @@ function useSearch(query: string, icons: {
     }
   }, [query])
 
-  React.useEffect(() => {
+  useEffect(() => {
     fuse = new Fuse([...icons], {
       threshold: 0.2,
       keys: ['name'],

@@ -1,7 +1,8 @@
 import { Global, jsx } from '@emotion/react'
 import packageJson from '@bitcoin-design/bitcoin-icons-svg/package.json'
-import React from 'react'
-import ReactDOM from 'react-dom'
+import { useState } from 'react'
+import type React from 'react'
+import { createRoot } from 'react-dom/client'
 import IconButton from './components/icon-button'
 import SearchInput from './components/search-input'
 import theme from './theme'
@@ -9,7 +10,7 @@ import './ui.css'
 import useSearch from './use-search'
 import * as filledIcons from "@bitcoin-design/bitcoin-icons-svg/filled/index.js";
 import * as outlineIcons from "@bitcoin-design/bitcoin-icons-svg/outline/index.js";
-import Toggle, { type ToggleProps } from 'react-toggle'
+import Toggle from 'react-toggle'
 
 function capitalize(word: string) {
     return word.charAt(0).toUpperCase() + word.substring(1);
@@ -34,8 +35,8 @@ function App() {
       svg: icon.svg
     }
   });
-  const [availableIcons, setAvailableIcons] = React.useState([...allOutlineIcons]);
-  const [query, setQuery] = React.useState('')
+  const [availableIcons, setAvailableIcons] = useState([...allOutlineIcons]);
+  const [query, setQuery] = useState('')
   const results = useSearch(query, availableIcons)
   const handleOutlineChange = ({ target }: React.ChangeEvent<HTMLInputElement>) => {
     setAvailableIcons(target.checked ? [...allFilledIcons] : [...allOutlineIcons]);
@@ -105,4 +106,6 @@ function App() {
   )
 }
 
-ReactDOM.render(<App />, document.getElementById('react-page'))
+const container = document.getElementById('react-page')
+const root = createRoot(container!)
+root.render(<App />)
