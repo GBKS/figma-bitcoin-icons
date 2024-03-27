@@ -4,5 +4,9 @@
   "ui": "dist/ui.html",
   "main": "dist/code.js",
   "editorType": ["figma", "figjam"],
-  "id": "1087677534293009133"
+  "id": "1087677534293009133",
+  "networkAccess": { 
+    "allowedDomains": ["none"]
+  },
+  "documentAccess": "dynamic-page"
 }
